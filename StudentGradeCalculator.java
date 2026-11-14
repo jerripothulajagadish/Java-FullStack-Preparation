@@ -38,7 +38,7 @@ public class StudentGradeCalculator {
         double per = (total / 500.0) * 100;
         System.out.println("Student Name: " + s);
         System.out.println("Total Marks: " + total + "/500");
-        System.out.println("Percentage: " + per);
+        System.out.printf("Percentage: %.2f%%%n", per);
         System.out.println("Grade: " + new StudentGradeCalculator().meth1(per));
     }
 }
