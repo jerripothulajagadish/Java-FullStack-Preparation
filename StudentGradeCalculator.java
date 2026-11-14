@@ -40,5 +40,9 @@ public class StudentGradeCalculator {
         System.out.println("Total Marks: " + total + "/500");
         System.out.printf("Percentage: %.2f%%%n", per);
         System.out.println("Grade: " + new StudentGradeCalculator().meth1(per));
+        if (per >= 50)
+            System.out.println("PASS");
+        else
+            System.out.println("FAIL");
     }
 }
