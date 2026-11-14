@@ -41,7 +41,7 @@ public class StudentGradeCalculator {
         System.out.printf("Percentage: %.2f%%%n", per);
         System.out.println("Grade: " + new StudentGradeCalculator().meth1(per));
         if (per >= 50)
-            System.out.println("PASS");
+            System.out.println("PASSED");
         else
             System.out.println("FAIL");
     }
